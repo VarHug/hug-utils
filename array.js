@@ -37,3 +37,20 @@ export function min(arr) {
   }
   return minIndex
 }
+
+/**
+ * 数组去重，返回去重后的数组
+ * @param {Array} arr
+ * @returns {Array}
+ */
+export function unique(arr) {
+  let res = [],
+    dic = {}
+  for (let element of arr) {
+    if (!dic[element]) {
+      dic[element] = 1
+      res.push(element)
+    }
+  }
+  return res
+}
