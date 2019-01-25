@@ -15,3 +15,14 @@ export function formatFileSize(size, carry) {
   size = parseInt(size) === size ? size : size.toFixed(1)
   return `${size}${_suffix[_index]}`
 }
+
+/**
+ * 获取文件后缀名函数
+ * @export
+ * @param {String} filename
+ * @returns {String}
+ */
+export function suffix(filename) {
+  let index = filename.lastIndexOf('.')
+  return filename.substr(index + 1)
+}
