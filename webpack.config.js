@@ -33,24 +33,6 @@ module.exports = {
       test: /\.(js|jsx)$/,
       include: [path.resolve(__dirname, 'src')],
       loader: 'babel-loader'
-    }, {
-      test: /.(less|css)$/,
-
-      use: [{
-        loader: 'style-loader'
-      }, {
-        loader: 'css-loader',
-
-        options: {
-          sourceMap: true
-        }
-      }, {
-        loader: 'less-loader',
-
-        options: {
-          sourceMap: true
-        }
-      }]
     }]
   },
 
