@@ -4,7 +4,7 @@
  * @param {Number} m
  * @param {Number} n
  */
-export function random(m, n) {
+export const random = (m, n) => {
   return (m + Math.random() * (n - m + 1)) | 0
 }
 
@@ -14,7 +14,7 @@ export function random(m, n) {
  * @param {Array} arr
  * @returns {Array}
  */
-export function shuffle(arr) {
+export const shuffle = (arr) => {
   let _arr = arr.slice()
   for (let i = arr.length - 1; i > 0; i--) {
     let j = random(0, i)

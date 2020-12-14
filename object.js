@@ -3,7 +3,7 @@
  * @param {Object} obj
  * @returns {String} Object,Array,Function
  */
-export function getObjectType(obj) {
+export const getObjectType = (obj) => {
   return Object.prototype.toString.call(obj).replace(/\[object (\w+)\]/,"$1")
 }
 
@@ -12,7 +12,7 @@ export function getObjectType(obj) {
  * @param {Object} obj
  * @returns {boolean}
  */
-export function getObjectLength(obj) {
+export const getObjectLength = (obj) => {
   if (getObjectType(obj) === 'Object') {
     return Object.keys(obj).length
   }
@@ -24,7 +24,7 @@ export function getObjectLength(obj) {
  * @param {Object} obj2
  * @returns {boolean}
  */
-export function equalObject(obj1, obj2) {
+export const equalObject = (obj1, obj2) => {
   let type1 = getObjectType(obj1)
   let type2 = getObjectType(obj2)
   if (type1 !== type2) {

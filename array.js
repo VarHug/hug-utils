@@ -1,9 +1,9 @@
 /**
- * 返回数组中的最大值的索引,若数组为空，则返回1
+ * 返回数组中的最大值的索引,若数组为空，则返回-1
  * @param {Array} arr
  * @returns {Number}
  */
-export function max(arr) {
+export const max = (arr) => {
   if (arr.length === 0) {
     return -1
   }
@@ -19,11 +19,11 @@ export function max(arr) {
 }
 
 /**
- * 返回数组中的最小值的索引,若数组为空，则返回1
+ * 返回数组中的最小值的索引,若数组为空，则返回-1
  * @param {Array} arr
  * @returns {Number}
  */
-export function min(arr) {
+export const min = (arr) => {
   if (arr.length === 0) {
     return -1
   }
@@ -43,7 +43,7 @@ export function min(arr) {
  * @param {Array} arr
  * @returns {Array}
  */
-export function unique(arr) {
+export const unique = (arr) => {
   let res = [],
     dic = {}
   for (let element of arr) {
