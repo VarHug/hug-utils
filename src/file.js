@@ -5,8 +5,8 @@
  * @returns {Number}
  */
 export const formatFileSize = (size, carry) => {
-  let _suffix = ['bytes', 'KB', 'MB', 'GB', 'TB']
-  let _carry = carry === 1024 || carry === 1000 ? carry : 1000
+  const _suffix = ['bytes', 'KB', 'MB', 'GB', 'TB']
+  const _carry = carry === 1024 || carry === 1000 ? carry : 1000
   let _index = 0
   while (size >= _carry && _index < _suffix.length) {
     size /= _carry
@@ -23,6 +23,6 @@ export const formatFileSize = (size, carry) => {
  * @returns {String}
  */
 export const suffix = (filename) => {
-  let index = filename.lastIndexOf('.')
+  const index = filename.lastIndexOf('.')
   return filename.substr(index + 1)
 }

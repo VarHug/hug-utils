@@ -15,10 +15,10 @@ export const random = (m, n) => {
  * @returns {Array}
  */
 export const shuffle = (arr) => {
-  let _arr = arr.slice()
+  const _arr = arr.slice()
   for (let i = arr.length - 1; i > 0; i--) {
-    let j = random(0, i)
-    let temp = _arr[i]
+    const j = random(0, i)
+    const temp = _arr[i]
     _arr[i] = _arr[j]
     _arr[j] = temp
   }

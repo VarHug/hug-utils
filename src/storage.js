@@ -1,57 +1,57 @@
-function serialize(val) {
+function serialize (val) {
   return JSON.stringify(val)
 }
 
-function deserialize(val) {
+function deserialize (val) {
   if (typeof val !== 'string') {
     return undefined
   }
   try {
     return JSON.parse(val)
-  } catch(e) {
+  } catch (e) {
     return val || undefined
   }
 }
 
 // localStorage模块
-export const hugStorage= {
+export const hugStorage = {
   storage: window.localStorage,
 
-  set(key, val) {
+  set (key, val) {
     if (val === undefined) {
       return this.remove(key)
     }
     this.storage.setItem(key, serialize(val))
   },
 
-  get(key, def) {
-    let val = deserialize(this.storage.getItem(key))
+  get (key, def) {
+    const val = deserialize(this.storage.getItem(key))
     return (val === undefined ? def : val)
   },
 
-  has(key) {
+  has (key) {
     return this.get(key) !== undefined
   },
 
-  remove(key) {
+  remove (key) {
     this.storage.removeItem(key)
   },
 
-  clear() {
+  clear () {
     this.storage.clear()
   },
 
-  getAll() {
-    let ret = {}
+  getAll () {
+    const ret = {}
     this.forEach((key, val) => {
       ret[key] = val
     })
     return ret
   },
 
-  forEach(callback) {
+  forEach (callback) {
     for (let i = 0; i < this.storage.length; i++) {
-      let key = this.storage.key(i)
+      const key = this.storage.key(i)
       callback(key, this.get(key))
     }
   }
