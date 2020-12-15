@@ -11,5 +11,6 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
+    'arrow-body-style': ['error', 'always']
   }
 }
