@@ -1,3 +1,5 @@
+import { curry } from './appendix'
+
 /**
  * 返回数组中的最大值的索引,若数组为空，则返回-1
  * @param {Array} arr
@@ -54,3 +56,26 @@ export const unique = (arr) => {
   }
   return res
 }
+
+/**
+ * 对数组中的各项元素执行一遍需要的方法，若返回值相同，保留第一个值，返回去重后的数组。
+ *
+ * @function
+ * @sig (a -> b) -> [a] -> [a]
+ * @param {Function} fn
+ * @param {Array} arr
+ * @returns {Array}
+ */
+export const uniqBy = curry((fn, arr) => {
+  const set = new Set()
+  const result = []
+  let appliedItem
+  arr.forEach((item) => {
+    appliedItem = fn(item)
+    if (!set.has(appliedItem)) {
+      set.add(appliedItem)
+      result.push(item)
+    }
+  })
+  return result
+})
