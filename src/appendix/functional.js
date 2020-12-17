@@ -17,3 +17,13 @@ export const compose = (...fns) => {
     }, args)[0]
   }
 }
+
+/**
+ * 将输入值原样返回。适合用作默认或占位函数。
+ *
+ * @function
+ * @sig a -> a
+ */
+export const identity = (x) => {
+  return x
+}
