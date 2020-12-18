@@ -1,4 +1,4 @@
-import { curry } from './appendix'
+import { curry, identity } from './appendix'
 
 /**
  * 返回数组中的最大值的索引,若数组为空，则返回-1
@@ -41,23 +41,6 @@ export const min = (arr) => {
 }
 
 /**
- * 数组去重，返回去重后的数组
- * @param {Array} arr
- * @returns {Array}
- */
-export const unique = (arr) => {
-  const res = []
-  const dic = {}
-  for (const element of arr) {
-    if (!dic[element]) {
-      dic[element] = 1
-      res.push(element)
-    }
-  }
-  return res
-}
-
-/**
  * 对数组中的各项元素执行一遍需要的方法，若返回值相同，保留第一个值，返回去重后的数组。
  *
  * @function
@@ -79,3 +62,16 @@ export const uniqBy = curry((fn, arr) => {
   })
   return result
 })
+
+/**
+ * 数组去重，返回去重后的数组
+ *
+ * @function
+ * @sig [a] -> [a]
+ * @param {Array} arr
+ * @returns {Array}
+ *
+ * @description
+ *  等于 uniq = arr => uniqBy(identity, arr)
+ */
+export const uniq = uniqBy(identity)
