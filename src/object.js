@@ -1,3 +1,5 @@
+import { curry } from './appendix'
+
 /**
  * 获取Object的具体类型
  * @param {Object} obj
@@ -55,3 +57,10 @@ export const equalObject = (obj1, obj2) => {
   }
   return true
 }
+
+export const prop = curry((key, obj) => {
+  if (obj == null) {
+    return undefined
+  }
+  return obj[key]
+})
