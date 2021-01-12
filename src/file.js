@@ -5,16 +5,16 @@
  * @returns {Number}
  */
 export const formatFileSize = (size, carry) => {
-  const _suffix = ['bytes', 'KB', 'MB', 'GB', 'TB']
-  const _carry = carry === 1024 || carry === 1000 ? carry : 1000
-  let _index = 0
+  const _suffix = ['bytes', 'KB', 'MB', 'GB', 'TB'];
+  const _carry = carry === 1024 || carry === 1000 ? carry : 1000;
+  let _index = 0;
   while (size >= _carry && _index < _suffix.length) {
-    size /= _carry
-    _index++
+    size /= _carry;
+    _index++;
   }
-  size = parseInt(size) === size ? size : size.toFixed(1)
-  return `${size}${_suffix[_index]}`
-}
+  size = parseInt(size) === size ? size : size.toFixed(1);
+  return `${size}${_suffix[_index]}`;
+};
 
 /**
  * 获取文件后缀名函数
@@ -23,6 +23,6 @@ export const formatFileSize = (size, carry) => {
  * @returns {String}
  */
 export const suffix = (filename) => {
-  const index = filename.lastIndexOf('.')
-  return filename.substr(index + 1)
-}
+  const index = filename.lastIndexOf('.');
+  return filename.substr(index + 1);
+};

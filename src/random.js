@@ -5,8 +5,8 @@
  * @param {Number} n
  */
 export const random = (m, n) => {
-  return (m + Math.random() * (n - m + 1)) | 0
-}
+  return (m + Math.random() * (n - m + 1)) | 0;
+};
 
 /**
  * 洗牌算法
@@ -15,12 +15,12 @@ export const random = (m, n) => {
  * @returns {Array}
  */
 export const shuffle = (arr) => {
-  const _arr = arr.slice()
+  const _arr = arr.slice();
   for (let i = arr.length - 1; i > 0; i--) {
-    const j = random(0, i)
-    const temp = _arr[i]
-    _arr[i] = _arr[j]
-    _arr[j] = temp
+    const j = random(0, i);
+    const temp = _arr[i];
+    _arr[i] = _arr[j];
+    _arr[j] = temp;
   }
-  return _arr
-}
+  return _arr;
+};
