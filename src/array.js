@@ -1,4 +1,4 @@
-import { curry, identity } from './appendix';
+import { _curry, _identity } from './internal';
 
 /**
  * 返回数组中的最大值的索引,若数组为空，则返回-1
@@ -49,7 +49,7 @@ export const min = (arr) => {
  * @param {Array} arr
  * @returns {Array}
  */
-export const uniqBy = curry((fn, arr) => {
+export const uniqBy = _curry((fn, arr) => {
   const set = new Set();
   const result = [];
   let appliedItem;
@@ -74,4 +74,4 @@ export const uniqBy = curry((fn, arr) => {
  * @description
  *  等于 uniq = arr => uniqBy(identity, arr)
  */
-export const uniq = uniqBy(identity);
+export const uniq = uniqBy(_identity);

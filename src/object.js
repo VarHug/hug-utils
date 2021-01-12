@@ -1,4 +1,4 @@
-import { curry } from './appendix';
+import { _curry } from './internal';
 
 /**
  * 获取Object的具体类型
@@ -58,7 +58,7 @@ export const equalObject = (obj1, obj2) => {
   return true;
 };
 
-export const prop = curry((key, obj) => {
+export const prop = _curry((key, obj) => {
   if (obj == null) {
     return undefined;
   }
