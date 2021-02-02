@@ -1,7 +1,7 @@
 import { _curry } from '../internal';
 
 /**
- * @description 简单两数相加的加法
+ * @description 简单加法，两数相加
  * @sig Number -> Number -> Number
  * @param {number} a
  * @param {number} b
