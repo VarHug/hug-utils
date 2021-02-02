@@ -1,5 +1,5 @@
-const path = require('path')
-const webpack = require('webpack')
+const path = require('path');
+const webpack = require('webpack');
 
 /*
  * SplitChunksPlugin is enabled by default and replaced
@@ -22,7 +22,7 @@ const webpack = require('webpack')
  *
  */
 
-const TerserPlugin = require('terser-webpack-plugin')
+const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -53,4 +53,4 @@ module.exports = {
       name: false
     }
   }
-}
+};
