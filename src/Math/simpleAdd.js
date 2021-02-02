@@ -5,6 +5,7 @@ import { _curry } from '../internal';
  * @sig Number -> Number -> Number
  * @param {number} a
  * @param {number} b
+ * @returns {number}
  */
 const simpleAdd = (a, b) => {
   return Number(a) + Number(b);

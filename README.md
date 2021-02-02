@@ -11,4 +11,5 @@ src:
     * adjust: 将数组中指定索引处的值替换为经函数变换的值
     * all: 如果列表中的所有元素都满足 predicate，则返回 true；否则，返回 false。
   * Math:
-    * simpleAdd: 简单的两数相加（原生加法）
+    * simpleAdd: 简单加法（原生加法）
+    * simpleSubtract: 简单减法
