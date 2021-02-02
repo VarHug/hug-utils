@@ -1,4 +1,4 @@
 export * from './array';
 export * from './file';
 export * from './object';
-export * from './random';
+export { default as curry } from './curry';
