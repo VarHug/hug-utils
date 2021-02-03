@@ -17,3 +17,4 @@ src:
     * simpleSubtract: 简单减法(原生减法)
   * Type:
     * isNil: 检测输入值是否为 null 或 undefined
+    * type: 用一个单词来描述输入值的（原生）类型，返回诸如 'Object'、'Number'、'Array'、'Null' 之类的结果
