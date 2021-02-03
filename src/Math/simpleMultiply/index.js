@@ -1,4 +1,4 @@
-import { _curry } from '../internal';
+import { _curry } from '../../internal';
 
 /**
  * @description 简单乘法，两数相乘

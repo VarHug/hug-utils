@@ -1,4 +1,4 @@
-import { _curry } from '../internal';
+import { _curry } from '../../internal';
 
 /**
  * @description 简单除法，第一个数除以第二个数

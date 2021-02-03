@@ -1,4 +1,4 @@
-import { _curry } from '../internal';
+import { _curry } from '../../internal';
 
 /**
  * @description 简单加法，两数相加

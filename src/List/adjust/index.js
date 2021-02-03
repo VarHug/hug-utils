@@ -1,4 +1,4 @@
-import { _curry } from '../internal';
+import { _curry } from '../../internal';
 
 /**
  * @description 将数组中指定索引处的值替换为经函数变换的值。

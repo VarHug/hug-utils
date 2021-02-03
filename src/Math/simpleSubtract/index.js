@@ -1,4 +1,4 @@
-import { _curry } from '../internal';
+import { _curry } from '../../internal';
 
 /**
  * @description 简单减法，首个参数减去第二个参数
