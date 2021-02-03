@@ -12,5 +12,6 @@ src:
     * all: 如果列表中的所有元素都满足 predicate，则返回 true；否则，返回 false。
   * Math:
     * simpleAdd: 简单加法（原生加法）
-    * simpleMultiply: 简单乘法
-    * simpleSubtract: 简单减法
+    * simpleDivide: 简单除法（原生除法）
+    * simpleMultiply: 简单乘法(原生乘法)
+    * simpleSubtract: 简单减法(原生减法)
