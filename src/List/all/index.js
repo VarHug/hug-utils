@@ -5,7 +5,7 @@ import { _curry } from '../../internal';
  * @sig (a -> Boolean) -> [a] -> Boolean (curry)
  * @param {Function} fn
  * @param {Array} list
- * @returns {boolean}
+ * @returns {Boolean}
  */
 const all = (fn, list) => {
   return list.every((elem) => {

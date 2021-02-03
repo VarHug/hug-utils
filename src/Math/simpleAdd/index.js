@@ -3,9 +3,9 @@ import { _curry } from '../../internal';
 /**
  * @description 简单加法，两数相加
  * @sig Number -> Number -> Number
- * @param {number} a
- * @param {number} b
- * @returns {number}
+ * @param {Number} a
+ * @param {Number} b
+ * @returns {Number}
  */
 const simpleAdd = (a, b) => {
   return Number(a) + Number(b);

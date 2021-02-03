@@ -3,7 +3,7 @@ import { _curry } from '../../internal';
 /**
  * @description 将数组中指定索引处的值替换为经函数变换的值。
  * @sig Number -> (a -> a) -> [a] -> [a] (curry)
- * @param {number} idx
+ * @param {Number} idx
  * @param {Function} fn
  * @param {Array} list
  * @returns {Array}
