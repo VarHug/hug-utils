@@ -1,4 +1,4 @@
-import { _curry } from '../../internal';
+import { curry } from '../../Function';
 
 /**
  * @description 简单加法，两数相加
@@ -11,6 +11,6 @@ const simpleAdd = (a, b) => {
   return Number(a) + Number(b);
 };
 
-const currySimpleAdd = _curry(simpleAdd);
+const currySimpleAdd = curry(simpleAdd);
 
 export default currySimpleAdd;

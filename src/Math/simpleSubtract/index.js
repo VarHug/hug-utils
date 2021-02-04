@@ -1,4 +1,4 @@
-import { _curry } from '../../internal';
+import { curry } from '../../Function';
 
 /**
  * @description 简单减法，首个参数减去第二个参数
@@ -11,6 +11,6 @@ const simpleSubtract = (a, b) => {
   return Number(a) - Number(b);
 };
 
-const currySimpleSubtract = _curry(simpleSubtract);
+const currySimpleSubtract = curry(simpleSubtract);
 
 export default currySimpleSubtract;

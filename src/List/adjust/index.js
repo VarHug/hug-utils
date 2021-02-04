@@ -1,4 +1,4 @@
-import { _curry } from '../../internal';
+import { curry } from '../../Function';
 
 /**
  * @description 将数组中指定索引处的值替换为经函数变换的值。
@@ -22,6 +22,6 @@ const adjust = (idx, fn, list) => {
   return _list;
 };
 
-const curryAdjust = _curry(adjust);
+const curryAdjust = curry(adjust);
 
 export default curryAdjust;

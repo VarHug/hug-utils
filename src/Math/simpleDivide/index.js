@@ -1,4 +1,4 @@
-import { _curry } from '../../internal';
+import { curry } from '../../Function';
 
 /**
  * @description 简单除法，第一个数除以第二个数
@@ -11,6 +11,6 @@ const simpleDivide = (a, b) => {
   return Number(a) / Number(b);
 };
 
-const currySimpleDivide = _curry(simpleDivide);
+const currySimpleDivide = curry(simpleDivide);
 
 export default currySimpleDivide;
