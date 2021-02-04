@@ -4,7 +4,7 @@
  * @param  {...Function} fns
  * @returns {Function}
  */
-const _compose = (...fns) => {
+const compose = (...fns) => {
   return (...args) => {
     return fns.reduceRight((res, fn) => {
       return fn(...res);
@@ -12,4 +12,4 @@ const _compose = (...fns) => {
   };
 };
 
-export default _compose;
+export default compose;
