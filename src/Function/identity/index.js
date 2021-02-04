@@ -4,8 +4,8 @@
  * @param {*} x 输入值
  * @returns {*} x
  */
-const _identity = (x) => {
+const identity = (x) => {
   return x;
 };
 
-export default _identity;
+export default identity;
