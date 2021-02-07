@@ -1,9 +1,11 @@
 # hug-utils
 常用函数的封装，提供简易版的函数式函数。
 
-函数目录：
+项目目录：
 
 src:
+  * Enum: 枚举值（常量）
+    * TypeEnum: type 类型常量
   * Function:
     * compose: 从右往左执行函数组合
     * curry: 柯里化
