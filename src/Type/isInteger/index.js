@@ -4,8 +4,10 @@
  * @param {*} n
  * @returns {Boolean}
  */
-const isInteger = Number.isInteger || ((n) => {
-  return (n << 0) === n;
-});
+const isInteger =
+  Number.isInteger ||
+  ((n) => {
+    return n << 0 === n;
+  });
 
 export default isInteger;
