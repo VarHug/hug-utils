@@ -18,6 +18,8 @@ src:
     * simpleDivide: 简单除法（原生除法）
     * simpleMultiply: 简单乘法(原生乘法)
     * simpleSubtract: 简单减法(原生减法)
+  * Object:
+    * prop: 取出对象中指定属性的值
   * Type:
     * isInteger: 检测输入值是否为整数
     * isNil: 检测输入值是否为 null 或 undefined
