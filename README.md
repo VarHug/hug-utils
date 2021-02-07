@@ -16,5 +16,6 @@ src:
     * simpleMultiply: 简单乘法(原生乘法)
     * simpleSubtract: 简单减法(原生减法)
   * Type:
+    * isInteger: 检测输入值是否为整数
     * isNil: 检测输入值是否为 null 或 undefined
     * type: 用一个单词来描述输入值的（原生）类型，返回诸如 'Object'、'Number'、'Array'、'Null' 之类的结果
