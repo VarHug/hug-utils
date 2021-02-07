@@ -4,7 +4,7 @@
  * @param {Function} fn 需要柯里化的函数
  * @returns {Function} 柯里化的函数
  */
-const _curry = (fn) => {
+const curry = (fn) => {
   const arity = fn.length;
 
   return function $curry (...args) {
@@ -16,4 +16,4 @@ const _curry = (fn) => {
   };
 };
 
-export default _curry;
+export default curry;
