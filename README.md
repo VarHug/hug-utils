@@ -12,6 +12,7 @@ src:
   * List:
     * adjust: 将数组中指定索引处的值替换为经函数变换的值
     * all: 如果列表中的所有元素都满足 predicate，则返回 true；否则，返回 false
+    * nth: 返回列表或字符串的第 n 个元素
   * Math:
     * simpleAdd: 简单加法（原生加法）
     * simpleDivide: 简单除法（原生除法）
