@@ -4,7 +4,7 @@
   "name": "my-webpack-project",
   "scripts": {
     "build": "webpack",
-    "test": "jest"
+    "test": "jest --watch --coverage"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
