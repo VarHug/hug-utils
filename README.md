@@ -25,6 +25,7 @@ src:
   * Object:
     * keys: 返回给定对象所有可枚举的、自身属性的属性名组成的列表
     * prop: 取出对象中指定属性的值
+    * values: 返回对象所有自身可枚举的属性的值
   * Type:
     * isInteger: 检测输入值是否为整数
     * isNil: 检测输入值是否为 null 或 undefined
