@@ -12,9 +12,9 @@ src:
     * **[curry](https://github.com/VarHug/hug-utils/blob/master/src/Function/curry/index.js)**: 柯里化
     * **[identity](https://github.com/VarHug/hug-utils/blob/master/src/Function/identity/index.js)**: 将输入值原样返回
   * List:
-    * adjust: 将数组中指定索引处的值替换为经函数变换的值
-    * all: 如果列表中的所有元素都满足 predicate，则返回 true；否则，返回 false
-    * nth: 返回列表或字符串的第 n 个元素
+    * **[adjust](https://github.com/VarHug/hug-utils/blob/master/src/List/adjust/index.js)**: 将数组中指定索引处的值替换为经函数变换的值
+    * **[all](https://github.com/VarHug/hug-utils/blob/master/src/List/all/index.js)**: 如果列表中的所有元素都满足 predicate，则返回 true；否则，返回 false
+    * **[nth](https://github.com/VarHug/hug-utils/blob/master/src/List/nth/index.js)**: 返回列表或字符串的第 n 个元素
   * Logic:
     * and: 如果两个参数都是 true，则返回 true；否则返回 false
   * Math:
