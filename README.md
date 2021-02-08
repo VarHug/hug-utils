@@ -27,6 +27,7 @@ src:
     * prop: 取出对象中指定属性的值
     * values: 返回对象所有自身可枚举的属性的值
   * Type:
+    * isArray: 检测输入值是否为数组
     * isInteger: 检测输入值是否为整数
     * isNil: 检测输入值是否为 null 或 undefined
     * isObject: 检测输入值是否为对象
