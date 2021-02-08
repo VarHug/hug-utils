@@ -23,6 +23,7 @@ src:
     * simpleMultiply: 简单乘法(原生乘法)
     * simpleSubtract: 简单减法(原生减法)
   * Object:
+    * keys: 返回给定对象所有可枚举的、自身属性的属性名组成的列表
     * prop: 取出对象中指定属性的值
   * Type:
     * isInteger: 检测输入值是否为整数
