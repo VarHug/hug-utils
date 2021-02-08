@@ -7,6 +7,7 @@ src:
   * Enum: 枚举值（常量）
     * TypeEnum: type 类型常量
   * Function:
+    * always: 返回一个返回恒定值的函数
     * compose: 从右往左执行函数组合
     * curry: 柯里化
   * List:
