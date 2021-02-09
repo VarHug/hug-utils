@@ -57,6 +57,7 @@ module.exports = {
     ],
     'space-infix-ops': 'error',
     'key-spacing': ['error', { beforeColon: false, afterColon: true }],
+    'space-before-function-paren': ['error', 'never'],
     // es6
     'no-var': 'error',
     'prefer-const': [
