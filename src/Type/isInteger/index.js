@@ -1,4 +1,5 @@
 /**
+ * @doc 检测输入值是否为整数
  * @description 检测输入值是否为整数
  * @sig * -> Boolean
  * @param {*} n

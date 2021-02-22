@@ -1,4 +1,5 @@
 /**
+ * @doc 检测输入值是否为 null 或 undefined
  * @description 检测输入值是否为 null 或 undefined
  * @sig * -> Boolean
  * @param {*} x

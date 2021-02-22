@@ -2,6 +2,7 @@ import { TypeEnum } from '../../Enum';
 import type from '../type';
 
 /**
+ * @doc 检测输入值是否为字符串
  * @description 检测输入值是否为字符串
  * @sig * -> Boolean
  * @param {*} x

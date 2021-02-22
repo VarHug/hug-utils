@@ -1,6 +1,7 @@
 import { curry } from '../../Function';
 
 /**
+ * @doc 简单减法(原生减法)
  * @description 简单减法，首个参数减去第二个参数
  * @sig Number -> Number -> Number
  * @param {Number} a

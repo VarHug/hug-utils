@@ -1,6 +1,7 @@
 import { curry } from '../../Function';
 
 /**
+ * @doc 将数组中指定索引处的值替换为经函数变换的值
  * @description 将数组中指定索引处的值替换为经函数变换的值。
  * @sig Number -> (a -> a) -> [a] -> [a] (curry)
  * @param {Number} idx

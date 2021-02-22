@@ -1,4 +1,5 @@
 /**
+ * @doc 柯里化
  * @description 对函数进行柯里化
  * @sig (* -> a) -> (* -> a)
  * @param {Function} fn 需要柯里化的函数

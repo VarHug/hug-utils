@@ -1,6 +1,7 @@
 import { curry } from '../../Function';
 
 /**
+ * @doc 如果两个参数都是 true，则返回 true；否则返回 false
  * @description 如果两个参数都是 true，则返回 true；否则返回 false。
  * @sig a -> b -> a | b
  * @param {any} a
