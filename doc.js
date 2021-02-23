@@ -198,6 +198,6 @@ const catalogueMd = typesCatalogue;
 const readMeMd = templateMd.replace('{{catalogue}}', catalogueMd);
 
 // 写入md
-fs.writeFileSync('doc.md', readMeMd);
+fs.writeFileSync('README.md', readMeMd);
 
 console.log('写入完毕');
