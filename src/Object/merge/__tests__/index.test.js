@@ -11,4 +11,9 @@ test('merge', () => {
     b: 4,
     c: 5
   });
+  expect(merge({ a: 1, b: 2 })({ b: 4, c: 5 })).toEqual({
+    a: 1,
+    b: 4,
+    c: 5
+  });
 });
