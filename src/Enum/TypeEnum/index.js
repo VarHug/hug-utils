@@ -1,3 +1,6 @@
+/**
+ * @doc 类型常量
+ */
 const TypeEnum = {
   ARRAY: 'Array',
   BOOLEAN: 'Boolean',

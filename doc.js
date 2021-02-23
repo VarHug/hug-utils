@@ -178,7 +178,7 @@ const typesCatalogue = types.reduce((typeAcc, typeDirent) => {
     // 读取文件 desc
     const fnCode = fs.readFileSync(fnCodePath).toString();
     const fnCodeWithoutSpace = clearSpace(fnCode);
-    const descriptionRe = /\/\*\*\*@description(\S*?)\*@/;
+    const descriptionRe = /\/\*\*\*@doc(\S*?)\*(@|\/)/;
     const descriptionMatch = fnCodeWithoutSpace.match(descriptionRe);
     const description = descriptionMatch && descriptionMatch[1];
     const rudeFnMd = createRudeFnMd(fnDirName, fnPath);
