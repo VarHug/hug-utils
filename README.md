@@ -32,6 +32,7 @@ src:
     * **[prop](https://github.com/VarHug/hug-utils/blob/master/src/Object/prop/index.js)**: 取出对象中指定属性的值
     * **[values](https://github.com/VarHug/hug-utils/blob/master/src/Object/values/index.js)**: 返回对象所有自身可枚举的属性的值
   * Relation:
+    * **[clamp](https://github.com/VarHug/hug-utils/blob/master/src/Relation/clamp/index.js)**: 将数字限制在指定的范围内
     * **[gt](https://github.com/VarHug/hug-utils/blob/master/src/Relation/gt/index.js)**: 判断首个参数是否大于第二个参数
   * Type:
     * **[isArray](https://github.com/VarHug/hug-utils/blob/master/src/Type/isArray/index.js)**: 检测输入值是否为数组
