@@ -14,6 +14,7 @@ src:
   * List:
     * **[adjust](https://github.com/VarHug/hug-utils/blob/master/src/List/adjust/index.js)**: 将数组中指定索引处的值替换为经函数变换的值
     * **[all](https://github.com/VarHug/hug-utils/blob/master/src/List/all/index.js)**: 如果列表中的所有元素都满足predicate，则返回true；否则，返回false
+    * **[map](https://github.com/VarHug/hug-utils/blob/master/src/List/map/index.js)**: 接收一个函数和一个functor,将该函数应用到functor的每个值上，返回一个具有相同形态的functor
     * **[nth](https://github.com/VarHug/hug-utils/blob/master/src/List/nth/index.js)**: 返回列表或字符串的第n个元素
     * **[reduce](https://github.com/VarHug/hug-utils/blob/master/src/List/reduce/index.js)**: 左折叠操作
   * Logic:
