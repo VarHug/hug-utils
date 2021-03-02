@@ -31,6 +31,7 @@ src:
     * **[keys](https://github.com/VarHug/hug-utils/blob/master/src/Object/keys/index.js)**: 返回给定对象所有可枚举的、自身属性的属性名组成的列表
     * **[merge](https://github.com/VarHug/hug-utils/blob/master/src/Object/merge/index.js)**: 合并两个对象的自身属性
     * **[prop](https://github.com/VarHug/hug-utils/blob/master/src/Object/prop/index.js)**: 取出对象中指定属性的值
+    * **[propEq](https://github.com/VarHug/hug-utils/blob/master/src/Object/propEq/index.js)**: 如果指定对象属性与给定的值相等，则返回true；否则返回false
     * **[values](https://github.com/VarHug/hug-utils/blob/master/src/Object/values/index.js)**: 返回对象所有自身可枚举的属性的值
   * Relation:
     * **[clamp](https://github.com/VarHug/hug-utils/blob/master/src/Relation/clamp/index.js)**: 将数字限制在指定的范围内
