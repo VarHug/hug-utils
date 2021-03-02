@@ -16,6 +16,7 @@ src:
     * **[all](https://github.com/VarHug/hug-utils/blob/master/src/List/all/index.js)**: 如果列表中的所有元素都满足predicate，则返回true；否则，返回false
     * **[append](https://github.com/VarHug/hug-utils/blob/master/src/List/append/index.js)**: 在列表末尾拼接一个元素
     * **[concat](https://github.com/VarHug/hug-utils/blob/master/src/List/concat/index.js)**: 连接列表或字符串
+    * **[find](https://github.com/VarHug/hug-utils/blob/master/src/List/find/index.js)**: 查找并返回list中首个满足predicate的元素；如果未找到满足条件的元素，则返回undefined
     * **[map](https://github.com/VarHug/hug-utils/blob/master/src/List/map/index.js)**: 接收一个函数和一个functor,将该函数应用到functor的每个值上，返回一个具有相同形态的functor
     * **[nth](https://github.com/VarHug/hug-utils/blob/master/src/List/nth/index.js)**: 返回列表或字符串的第n个元素
     * **[reduce](https://github.com/VarHug/hug-utils/blob/master/src/List/reduce/index.js)**: 左折叠操作
