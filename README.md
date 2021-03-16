@@ -28,6 +28,7 @@ src:
     * **[simpleMultiply](https://github.com/VarHug/hug-utils/blob/master/src/Math/simpleMultiply/index.js)**: 简单乘法(原生乘法)
     * **[simpleSubtract](https://github.com/VarHug/hug-utils/blob/master/src/Math/simpleSubtract/index.js)**: 简单减法(原生减法)
   * Object:
+    * **[entries](https://github.com/VarHug/hug-utils/blob/master/src/Object/entries/index.js)**: 返回对象自身可枚举属性的键值对数组
     * **[keys](https://github.com/VarHug/hug-utils/blob/master/src/Object/keys/index.js)**: 返回给定对象所有可枚举的、自身属性的属性名组成的列表
     * **[merge](https://github.com/VarHug/hug-utils/blob/master/src/Object/merge/index.js)**: 合并两个对象的自身属性
     * **[prop](https://github.com/VarHug/hug-utils/blob/master/src/Object/prop/index.js)**: 取出对象中指定属性的值
