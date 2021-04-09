@@ -21,6 +21,7 @@ src:
     * **[nth](https://github.com/VarHug/hug-utils/blob/master/src/List/nth/index.js)**: 返回列表或字符串的第n个元素
     * **[reduce](https://github.com/VarHug/hug-utils/blob/master/src/List/reduce/index.js)**: 左折叠操作
   * Logic:
+    * **[allPass](https://github.com/VarHug/hug-utils/blob/master/src/Logic/allPass/index.js)**: 传入包含多个predicate的列表，返回一个predicate：如果给定的参数满足列表中的所有predicate，则返回true
     * **[and](https://github.com/VarHug/hug-utils/blob/master/src/Logic/and/index.js)**: 如果两个参数都是true，则返回true；否则返回false
   * Math:
     * **[simpleAdd](https://github.com/VarHug/hug-utils/blob/master/src/Math/simpleAdd/index.js)**: 简单加法（原生加法）
