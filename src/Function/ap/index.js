@@ -1,4 +1,4 @@
-import { curry } from '../../Function';
+import curry from '../curry';
 
 /**
  * @doc ap 将函数列表作用于值列表上
