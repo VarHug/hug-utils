@@ -8,6 +8,7 @@ src:
     * **[TypeEnum](https://github.com/VarHug/hug-utils/blob/master/src/Enum/TypeEnum/index.js)**: 类型常量
   * Function:
     * **[always](https://github.com/VarHug/hug-utils/blob/master/src/Function/always/index.js)**: 返回一个返回恒定值的函数
+    * **[ap](https://github.com/VarHug/hug-utils/blob/master/src/Function/ap/index.js)**: ap将函数列表作用于值列表上
     * **[compose](https://github.com/VarHug/hug-utils/blob/master/src/Function/compose/index.js)**: 从右往左执行函数组合
     * **[curry](https://github.com/VarHug/hug-utils/blob/master/src/Function/curry/index.js)**: 柯里化
     * **[identity](https://github.com/VarHug/hug-utils/blob/master/src/Function/identity/index.js)**: 将输入值原样返回
