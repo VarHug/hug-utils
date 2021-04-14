@@ -9,12 +9,12 @@ import { isFunction } from '../../Type';
  * @returns {Function}
  */
 const invoker = function (arity, method) {
-  return function () {
-    const target = arguments[arity];
+  return function (...args) {
+    const target = args[arity];
     if (target != null && isFunction(target[method])) {
       return target[method].apply(
         target,
-        Array.prototype.slice.call(arguments, 0, arity)
+        Array.prototype.slice.call(args, 0, arity)
       );
     }
     throw new TypeError(
