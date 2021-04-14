@@ -5,4 +5,5 @@ export * from './Logic';
 export * from './Math';
 export * from './Object';
 export * from './Relation';
+export * from './String';
 export * from './Type';

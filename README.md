@@ -39,6 +39,8 @@ src:
   * Relation:
     * **[clamp](https://github.com/VarHug/hug-utils/blob/master/src/Relation/clamp/index.js)**: 将数字限制在指定的范围内
     * **[gt](https://github.com/VarHug/hug-utils/blob/master/src/Relation/gt/index.js)**: 判断首个参数是否大于第二个参数
+  * String:
+    * **[toUpper](https://github.com/VarHug/hug-utils/blob/master/src/String/toUpper/index.js)**: 将字符串转换为大写
   * Type:
     * **[isArray](https://github.com/VarHug/hug-utils/blob/master/src/Type/isArray/index.js)**: 检测输入值是否为数组
     * **[isInteger](https://github.com/VarHug/hug-utils/blob/master/src/Type/isInteger/index.js)**: 检测输入值是否为整数
