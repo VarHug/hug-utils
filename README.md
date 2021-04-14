@@ -12,6 +12,7 @@ src:
     * **[compose](https://github.com/VarHug/hug-utils/blob/master/src/Function/compose/index.js)**: 从右往左执行函数组合
     * **[curry](https://github.com/VarHug/hug-utils/blob/master/src/Function/curry/index.js)**: 柯里化
     * **[identity](https://github.com/VarHug/hug-utils/blob/master/src/Function/identity/index.js)**: 将输入值原样返回
+    * **[invoker](https://github.com/VarHug/hug-utils/blob/master/src/Function/invoker/index.js)**: 将具有指定元数（参数个数）的具名方法，转换为可以被给定参数和目标对象直接调用的函数
   * List:
     * **[adjust](https://github.com/VarHug/hug-utils/blob/master/src/List/adjust/index.js)**: 将数组中指定索引处的值替换为经函数变换的值
     * **[all](https://github.com/VarHug/hug-utils/blob/master/src/List/all/index.js)**: 如果列表中的所有元素都满足predicate，则返回true；否则，返回false
@@ -43,6 +44,7 @@ src:
     * **[toUpper](https://github.com/VarHug/hug-utils/blob/master/src/String/toUpper/index.js)**: 将字符串转换为大写
   * Type:
     * **[isArray](https://github.com/VarHug/hug-utils/blob/master/src/Type/isArray/index.js)**: 检测输入值是否为数组
+    * **[isFunction](https://github.com/VarHug/hug-utils/blob/master/src/Type/isFunction/index.js)**: 检测输入值是否为函数
     * **[isInteger](https://github.com/VarHug/hug-utils/blob/master/src/Type/isInteger/index.js)**: 检测输入值是否为整数
     * **[isNil](https://github.com/VarHug/hug-utils/blob/master/src/Type/isNil/index.js)**: 检测输入值是否为null或undefined
     * **[isObject](https://github.com/VarHug/hug-utils/blob/master/src/Type/isObject/index.js)**: 检测输入值是否为对象

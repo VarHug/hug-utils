@@ -1,4 +1,5 @@
 export { default as isArray } from './isArray';
+export { default as isFunction } from './isFunction';
 export { default as isInteger } from './isInteger';
 export { default as isNil } from './isNil';
 export { default as isObject } from './isObject';
